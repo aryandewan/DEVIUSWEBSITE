@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+}
+
+.BricolageGrotesque-Regular {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-stretch: semi-condensed;
+}
+
+@media (max-width: 390px) {
+  .mobile-text {
+    font-size: 1.5rem;
+  }
+}
