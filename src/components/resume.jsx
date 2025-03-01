@@ -64,7 +64,7 @@ const Resume = () => {
   return (
     <section
       ref={sectionRef}
-      className="flex flex-col h-screen mt-200 md:mt-15 xl:mt-100 relative overflow-x-hidden"
+      className="flex flex-col h-screen mt-200 md:mt-15 xl:mt-100 relative"
     >
       <h1
         ref={h1Ref}
