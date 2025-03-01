@@ -15,26 +15,20 @@ const Resume = () => {
     const h1 = h1Ref.current;
     const section = sectionRef.current;
 
-    if (pg2 && h1) {
-      const animation = gsap.to(pg2, {
-        rotateZ: 5,
-        translateX: 35,
-        duration: 1,
-        ease: "power2.inOut",
-        transformOrigin: "100% 100%",
-        opacity: 0.5,
-        scrollTrigger: {
-          trigger: h1,
-          start: 0,
-          end: 0,
-          scrub: 1,
-        },
-      });
-      return () => {
-        animation.kill();
-        ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-      };
-    }
+    const animation = gsap.to(pg2, {
+      rotateZ: 5,
+      translateX: 35,
+      duration: 1,
+      ease: "power2.inOut",
+      transformOrigin: "100% 100%",
+      opacity: 0.5,
+      scrollTrigger: {
+        trigger: h1,
+        start: 0,
+        end: 0,
+        scrub: 1,
+      },
+    });
   }, []);
 
   const handlePg1Click = () => {
