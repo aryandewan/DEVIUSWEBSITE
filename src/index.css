@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-xs: 390px;
+}
+
 .instrument-serif-regular-italic {
   font-family: "Instrument Serif", serif;
   font-weight: 400;
