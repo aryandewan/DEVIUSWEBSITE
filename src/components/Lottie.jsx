@@ -22,7 +22,7 @@ const LottieAnimation = () => {
     <div
       ref={container}
       id="lottie-container"
-      className="w-3/5 xl:w-full xl:h-full md:w-3/4 xs:w-1/2"
+      className="w-3/5 xl:w-full xl:h-full md:w-3/4 xs:w-3/4"
     />
   );
 };
